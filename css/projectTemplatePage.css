@@ -1,0 +1,13 @@
+body{
+	font-family: 'Lato', sans-serif;
+	margin: 5% 10% 5% 10%;
+}
+h1{
+	font-size: 90px;
+	text-align: center;
+	padding: 20px;
+}
+#projectText{
+	padding-top: 40px;
+	text-align: justify;
+}

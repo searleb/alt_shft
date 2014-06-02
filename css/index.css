@@ -1,0 +1,242 @@
+/*FONTS*/
+@font-face {
+	font-family: 'LeagueGothic';  src:url('../assets/LeagueGothic.otf');
+ }
+@font-face {
+	font-family: 'Stainy';  src:url('../assets/Stainy.ttf');
+ }
+@font-face {
+	font-family: 'MoonFlower';  src:url('../assets/MoonFlower.ttf');
+ }
+.stainy {
+	font-family:'Stainy';
+}
+.MoonFlower {
+	font-family:'MoonFlower';
+}
+.leaguegothic {
+	font-family:'LeagueGothic';
+}
+.txtjustify{
+	text-align:justify;
+}
+body{
+	overflow:hidden;
+	font-family: 'Lato',Helvetica,Arial,sans-serif;
+}
+.f20{
+	font-size: 20px;
+}
+.page{
+	width:100%;
+	height:100%;
+}
+.arrow{
+	opacity:0.5;
+}
+.dirText{
+	color:white;
+	font-size:20px;
+	margin-top:56.5px;
+	opacity:0.0;
+}
+.control{
+	position:fixed;
+	width:150px;
+	cursor:pointer;
+}
+#rightControl{
+	right:0px;
+	top:40%;
+}
+#leftControl{
+	left:0px;
+	top:40%;
+}
+.center{
+	margin-left: auto;
+	margin-right: auto;
+}
+.right {
+	float:right;
+}
+.left  {
+	float:left;
+}
+.clickable {
+	cursor:pointer;
+}
+/*CUSTOM STYLE*/
+.rowTopPad{
+	padding-top: 3%;
+}
+.padleft{
+	padding-left:15;
+}
+.logo{
+	height: 100px;
+	width: 600px;
+	margin-top: 15%;
+	/*color: black;
+	font-size: 100px;
+	font-weight: 400;
+	margin: 0 auto;
+	margin-top: 15%;*/
+	/*background-color: black;
+	height: 500px;
+	width: 500px;
+	border-radius: 100%;
+	border: 7px solid white;
+	opacity: 0;	
+    margin: 0 auto;
+	margin-top: 5%;*/
+
+}
+.logo h1{
+	/*padding-top: 175px;*/
+	color: black;
+	font-size: 120px;
+	font-weight: 400;	
+}
+.backbtn{
+	text-align: right;
+	position: relative;
+	padding: 5px;
+	background: linear-gradient(to right, rgba(192, 192, 192, 0), rgba(192, 192, 192, 1), rgba(192, 192, 192, 1), rgba(192, 192, 192, 1), rgba(192, 192, 192, 1));
+	/*background-color: rgba(192, 192, 192, .9);*/
+
+}
+.template{
+	margin-left: 55%;
+	margin-top: 80px;
+	padding-right: 20px;
+}
+.pageTitle{
+	font-size:90px;
+	color:#C0C0C0;
+	background-color: rgba(64,64,64, .9);
+}
+.pageContent{
+	font-size:15px;
+	color:#C0C0C0;
+	background-color:#404040;
+	padding: 15px 15px 15px 15px;
+	overflow-y: auto; 
+}
+.uppercase{
+	text-transform:uppercase;
+}
+#hint-button{
+	width: 220px;
+	color: black;
+}
+#hint{
+	width: 220px;
+	display: none;
+}
+#contact-content{
+	width: 538px; 
+	margin: 0 auto;
+	margin-top: 15%;
+}	
+#contact-content h1{
+	font-size: 100px;
+}
+#contact-content h3{
+	font-size: 60px;
+}
+#projects li{
+	line-height: 1.8;
+}
+#projectsList{
+	padding-left: 15px;
+}
+.indent{
+	padding-left: 20px;
+}
+/*TUMBLR STYLES*/
+#blog{
+	height: 80%;
+	overflow-y: scroll;
+	overflow-x: scroll;
+}
+.blog{
+	height: 80%;
+	border: none;
+}
+
+/*PAGE BACKGROUNDS*/
+#index{
+	background: url(../img/pagebg/indexbg.jpg) no-repeat center center; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+#about{
+	background: url(../img/pagebg/aboutbg.jpg) no-repeat center center; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+#projects{
+	background: url(../img/pagebg/projectsbg.jpg) no-repeat center center; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+#reprint{
+	background: url(../img/pagebg/reprintbg.jpg) no-repeat center center; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+#underground{
+	background: url(../img/pagebg/reprintunderbg.jpg) no-repeat center center; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+#comeGetIt{
+background: url(../img/pagebg/comeGetItbg.jpg) no-repeat center center; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover; 
+}
+#seduction{
+background: url(../img/pagebg/lastseductionbg.jpg) no-repeat center center; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover; 
+}
+#contact{
+	background: url(../img/pagebg/contactbg.jpg) no-repeat center center; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+#news{
+background: url(../img/pagebg/newsbg.jpg) no-repeat center center; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover; 
+}
+
+@media (max-width: 768px) { 
+.pageTitle{
+	font-size: 60px;
+	} 
+.logo h1{
+	font-size: 50px;
+}
+}
+
+
