@@ -19,7 +19,8 @@ $(document).ready(function () {
 			.add($("#about"))
 			.add($("#projects"))
 			.add($("#contact"))
-			.add($("#news"))
+			// NEWS PAGE
+			// .add($("#news"))
 			.add($("#reprint"))
 			.add($("#underground"))
 			.add($("#comeGetIt"))
@@ -46,19 +47,19 @@ $(document).ready(function () {
 
 	parallax.projects.onload=function(){
 		setLeft("about","");
-		setRight("news","");
+		setRight("contact","");
 		setBottom("reprint","RePrint")
 	};
 
 	parallax.contact.onload=function(){
-		setLeft("news","");
+		setLeft("projects","");
 		setRight("index","");
 	};
-
-	parallax.news.onload=function(){
-		setLeft("projects","");
-		setRight("contact","");
-	};
+	// NEWS PAGE
+	// parallax.news.onload=function(){
+	// 	setLeft("projects","");
+	// 	setRight("contact","");
+	// };
 // Project pages
 	parallax.reprint.onload=function(){
 		setTop("projects","Projects");

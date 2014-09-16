@@ -1,7 +1,4 @@
 $(document).ready(function(){
-	// randomize background-image
-	// var images = ['reunder1.jpg', 'reunder2.jpg', 'reunder3.jpg', 'reunder4.jpg', 'reunder5.jpg'];
-	// $('.logo').css({'background-image': 'url(img/reprintUnder/' + images[Math.floor(Math.random() * images.length)] + ')'});
 	// fade logo in from opacity: 0 in .css
 	$('.logo').fadeTo(1000, 0.8)
 	// on click fade logo out and move page right
@@ -34,23 +31,35 @@ $(document).ready(function(){
 			parallax.projects.top();
 		});
 
-// slide project links 
-// Mouse Over 
-$('ul li').mouseenter(function(){
-	$(this).animate({paddingLeft:"+=20px"});
-}),
-// Mouse Out
-$('ul li').mouseleave(function(){
-	$(this).animate({paddingLeft:"-=20px"});
-});
+
+	// $('.project-link').hover(
+	//   function() {
+	//     $( this ).css({
+	//     	'padding-left': '+=20px',
+	//     	'transition-duration': '1000'
+	//     });
+	//  	}, function() {
+	//     $( this ).css({
+	//     	'padding-left': '-=20px'
+	//    });
+ //  });
+
+// // Mouse Over 
+// $('ul li').mouseenter(function(){
+// 	$(this).velocity({paddingLeft:"+=20px"});
+// }),
+// // Mouse Out
+// $('ul li').mouseleave(function(){
+// 	$(this).velocity({paddingLeft:"-=20px"});
+// });
 
 // back button
 // Mouse Over 
-$('.backbtn').mouseenter(function(){
-	$(this).animate({paddingRight:"+=20px"});
-}),
-// Mouse Out
-$('.backbtn').mouseleave(function(){
-	$(this).animate({paddingRight:"-=20px"});
-	});
+// $('.backbtn').mouseenter(function(){
+// 	$(this).velocity({paddingRight:"+=20px"});
+// }),
+// // Mouse Out
+// $('.backbtn').mouseleave(function(){
+// 	$(this).velocity({paddingRight:"-=20px"});
+// 	});
 });

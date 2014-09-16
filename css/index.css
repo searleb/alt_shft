@@ -74,37 +74,49 @@ body{
 	padding-left:15;
 }
 .logo{
-	height: 100px;
-	width: 600px;
-	margin-top: 15%;
-	/*color: black;
-	font-size: 100px;
-	font-weight: 400;
-	margin: 0 auto;
-	margin-top: 15%;*/
-	/*background-color: black;
-	height: 500px;
-	width: 500px;
-	border-radius: 100%;
-	border: 7px solid white;
-	opacity: 0;	
-    margin: 0 auto;
-	margin-top: 5%;*/
-
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 .logo h1{
-	/*padding-top: 175px;*/
 	color: black;
 	font-size: 120px;
 	font-weight: 400;	
+}
+.project-link{
+	padding-left: 0px;
+	-webkit-transition: padding 0.5s;
+	-moz-transition: padding 0.5s;
+	-0-transition: padding 0.5s;
+	transition: padding 0.5s;
+}
+.project-link:hover{
+	padding-left: 20px;
+	-webkit-transition: padding 0.5s;
+	-moz-transition: padding 0.5s;
+	-0-transition: padding 0.5s;
+	transition: padding 0.5s;
 }
 .backbtn{
 	text-align: right;
 	position: relative;
 	padding: 5px;
 	background: linear-gradient(to right, rgba(192, 192, 192, 0), rgba(192, 192, 192, 1), rgba(192, 192, 192, 1), rgba(192, 192, 192, 1), rgba(192, 192, 192, 1));
-	/*background-color: rgba(192, 192, 192, .9);*/
-
+	-webkit-transition: padding 0.5s;
+	-moz-transition: padding 0.5s;
+	-0-transition: padding 0.5s;
+	transition: padding 0.5s;
+}
+.backbtn:hover{
+	padding-right: 20px;
+	-webkit-transition: padding 0.5s;
+	-moz-transition: padding 0.5s;
+	-0-transition: padding 0.5s;
+	transition: padding 0.5s;
 }
 .template{
 	margin-left: 55%;
@@ -127,6 +139,7 @@ body{
 	text-transform:uppercase;
 }
 #hint-button{
+	text-align: center;
 	width: 220px;
 	color: black;
 }

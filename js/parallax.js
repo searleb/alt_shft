@@ -54,7 +54,7 @@ var parallaxPage = function(name, pageHtml){
 
 		slide : function(css, callback){
 			this.page.css("display", "block");
-			this.page.stop().animate(css, parallax.speed, parallax.easing,
+			this.page.stop().velocity(css, parallax.speed, parallax.easing,
 				function(){if(typeof callback === "function"){callback();}
 			});
 		},
@@ -163,7 +163,7 @@ var parallax = {
 
 	slideBackground : function(newLocation){
 		if(typeof this.background !== 'undefined' && typeof newLocation !== 'undefined'){
-			$(this.background).animate({
+			$(this.background).velocity({
 				'background-position-x': '+=' + -newLocation.left * parallax.scaling + 'px',
 				'background-position-y': '+=' + -newLocation.top * parallax.scaling + 'px',
 				}, parallax.speed, parallax.easing);
