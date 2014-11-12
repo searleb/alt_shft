@@ -11,10 +11,13 @@ $(document).ready(function(){
 
 		// hint button
 		$('#hint-button').click(function() {
-			$('#hint').show( "bounce", 1000);
+			$('#hint').slideToggle();
 		});
 
 		// project links
+		$('#goodlnk').click(function(){
+			parallax.good.bottom();
+		});
 		$('#reprintlnk').click(function(){
 			parallax.reprint.bottom();
 		});

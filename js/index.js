@@ -21,6 +21,7 @@ $(document).ready(function () {
 			.add($("#contact"))
 			// NEWS PAGE
 			// .add($("#news"))
+			.add($("#good"))
 			.add($("#reprint"))
 			.add($("#underground"))
 			.add($("#comeGetIt"))
@@ -48,7 +49,7 @@ $(document).ready(function () {
 	parallax.projects.onload=function(){
 		setLeft("about","");
 		setRight("contact","");
-		setBottom("reprint","RePrint")
+		setBottom("good","Good Project")
 	};
 
 	parallax.contact.onload=function(){
@@ -60,9 +61,15 @@ $(document).ready(function () {
 	// 	setLeft("projects","");
 	// 	setRight("contact","");
 	// };
+
 // Project pages
-	parallax.reprint.onload=function(){
+	parallax.good.onload=function(){
 		setTop("projects","Projects");
+		setBottom("reprint","RePrint");
+	};
+
+	parallax.reprint.onload=function(){
+		setTop("good","Good Project");
 		setBottom("underground","RePrint Underground");
 	};
 
@@ -80,6 +87,7 @@ $(document).ready(function () {
 		setTop("comeGetIt","Come & Get It!");
 		setBottom("projects","Projects");
 	};
+
 
 
 	//Sets the correct triggers for the arrows, plus arrow keys

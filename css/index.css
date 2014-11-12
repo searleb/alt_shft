@@ -138,6 +138,13 @@ body{
 .uppercase{
 	text-transform:uppercase;
 }
+a{
+	color: #FFF;
+}
+a:hover{
+	color:#C0C0C0;
+	text-decoration: none;
+}
 #hint-button{
 	text-align: center;
 	width: 220px;
@@ -200,6 +207,13 @@ body{
 	-o-background-size: cover;
 	background-size: cover;
 }
+#good{
+	background: url(../img/pagebg/goodbg.jpg) no-repeat center center; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
 #reprint{
 	background: url(../img/pagebg/reprintbg.jpg) no-repeat center center; 
 	-webkit-background-size: cover;
@@ -235,13 +249,13 @@ background: url(../img/pagebg/lastseductionbg.jpg) no-repeat center center;
 	-o-background-size: cover;
 	background-size: cover;
 }
-#news{
+/*#news{
 background: url(../img/pagebg/newsbg.jpg) no-repeat center center; 
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover; 
-}
+}*/
 
 @media (max-width: 768px) { 
 .pageTitle{
