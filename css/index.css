@@ -155,9 +155,15 @@ a:hover{
 	display: none;
 }
 #contact-content{
-	width: 538px; 
-	margin: 0 auto;
-	margin-top: 15%;
+	z-index: 100;
+	color: #374140;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	-o-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
 }	
 #contact-content h1{
 	font-size: 100px;
@@ -258,12 +264,30 @@ background: url(../img/pagebg/newsbg.jpg) no-repeat center center;
 }*/
 
 @media (max-width: 768px) { 
-.pageTitle{
-	font-size: 60px;
-	} 
-.logo h1{
-	font-size: 50px;
+	.pageTitle{
+		font-size: 60px;
+		} 
+	.logo h1{
+		font-size: 50px;
+	}
 }
+
+@media (max-width: 768px) {
+	#contact-content h1{
+		font-size: 80px;
+	}
+	#contact-content h3{
+		font-size: 50px;
+	}
+}
+
+@media (max-width: 481px) {
+	#contact-content h1{
+		font-size: 50px;
+	}
+	#contact-content h3{
+		font-size: 35px;
+	}
 }
 
 
